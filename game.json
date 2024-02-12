@@ -1,0 +1,86 @@
+{
+	"width": 640,
+	"height": 360,
+	"fps": 30,
+	"main": "./script/main.js",
+	"assets": {
+		"main": {
+			"type": "script",
+			"path": "script/main.js",
+			"global": true
+		},
+		"MainScene": {
+			"type": "script",
+			"path": "script/MainScene.js",
+			"global": true
+		},
+		"Button": {
+			"type": "script",
+			"path": "script/Button.js",
+			"global": true
+		},
+		"img_numbers_n": {
+			"type": "image",
+			"width": 364,
+			"height": 32,
+			"path": "image/img_numbers_n.png"
+		},
+		"img_numbers_n_red": {
+			"type": "image",
+			"width": 364,
+			"height": 32,
+			"path": "image/img_numbers_n_red.png"
+		},
+		"test": {
+			"type": "text",
+			"path": "text/test.json"
+		},
+		"win": {
+			"type": "image",
+			"width": 300,
+			"height": 150,
+			"path": "image/win.png"
+		},
+		"koma": {
+			"type": "image",
+			"width": 144,
+			"height": 72,
+			"path": "image/koma.png"
+		},
+		"Panel": {
+			"type": "script",
+			"path": "script/Panel.js",
+			"global": true
+		},
+		"koma2": {
+			"type": "image",
+			"width": 80,
+			"height": 40,
+			"path": "image/koma2.png"
+		},
+		"help": {
+			"type": "image",
+			"width": 150,
+			"height": 75,
+			"path": "image/help.png"
+		}
+	},
+	"environment": {
+		"sandbox-runtime": "2",
+		"niconico": {
+			"supportedModes": [
+				"multi"
+			]
+		}
+	},
+	"globalScripts": [
+		"node_modules/@akashic-extension/akashic-timeline/lib/ActionType.js",
+		"node_modules/@akashic-extension/akashic-timeline/lib/Easing.js",
+		"node_modules/@akashic-extension/akashic-timeline/lib/Timeline.js",
+		"node_modules/@akashic-extension/akashic-timeline/lib/Tween.js",
+		"node_modules/@akashic-extension/akashic-timeline/lib/index.js"
+	],
+	"moduleMainScripts": {
+		"@akashic-extension/akashic-timeline": "node_modules/@akashic-extension/akashic-timeline/lib/index.js"
+	}
+}
